@@ -22,7 +22,7 @@ public class Main {
                 List<String> levelData = Files.readAllLines(Paths.get(levelPath)); //converts the files to a list of strings
                 Level l = new Level();
                 l.parseLevel(levelData, game.getPlayer()); //builds the level from the levelData
-                levels.add(l); //adds all leveles to the list of levels
+                levels.add(l); //adds all levels to the list of levels
 
             }
             game.setLevels(levels);
