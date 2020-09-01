@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="dungeon-dragon">
+    <output-path>$PROJECT_DIR$/out/artifacts/dungeon_dragon</output-path>
+    <root id="root">
+      <element id="archive" name="dungeon_dragon.jar">
+        <element id="module-output" name="dungeon-dragon" />
+      </element>
+    </root>
+  </artifact>
+</component>
