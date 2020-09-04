@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Monster extends Enemies {
     private final int visionRange;
+
     //default ctor
     public Monster(String name, int pool, int attack, int defense, char tile, int x, int y, int experience, int visionRange) {
         super(name, pool, attack, defense, tile, x, y, experience);

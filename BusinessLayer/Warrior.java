@@ -1,6 +1,5 @@
 package BusinessLayer;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,12 +8,14 @@ import java.util.Random;
 public class Warrior extends Player {
     protected int abilityCoolDown;
     private int remainCoolDown;
+
     //default ctor
     public Warrior(int abilityCoolDown, String name, int pool, int attack, int defense, int x, int y) {
         super(name, pool, attack, defense, x, y);
         this.abilityCoolDown = abilityCoolDown;
         this.remainCoolDown = 0;
     }
+
     //update warrior stats upon lvl up
     public String LevelUp() {
         super.LevelUp();

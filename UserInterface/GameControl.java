@@ -52,7 +52,7 @@ public class GameControl {
                 System.out.println(k);
             }
             char c = in.next().charAt(0);//input on player turn
-            while(c !='w' && c != 'a'&& c != 'd'&& c != 'q'&& c != 's'&& c != 'e'){
+            while (c != 'w' && c != 'a' && c != 'd' && c != 'q' && c != 's' && c != 'e') {
                 c = in.next().charAt(0);
             }
             switch (c) {

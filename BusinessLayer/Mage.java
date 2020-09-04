@@ -10,6 +10,7 @@ public class Mage extends Player {
     private int spellPower;
     private final int hitsCount;
     private final int abilityRange;
+
     //default ctor
     public Mage(String name, int pool, int attack, int defense, int x, int y, int manaPool, int manaCost, int spellPower, int hitsCount, int abilityRange) {
         super(name, pool, attack, defense, x, y);

@@ -8,6 +8,7 @@ public class Hunter extends Player {
     private final int range;
     private int arrowsCount;
     private int ticksCount;
+
     //default ctor
     public Hunter(String name, int pool, int attack, int defense, int x, int y, int range) {
         super(name, pool, attack, defense, x, y);
@@ -60,7 +61,7 @@ public class Hunter extends Player {
         arrowsCount += 10 * level;
         attack += 2 * level;
         defense += level;
-        return name + " reached level " + level + ": +" + (level) * (10) + " Health, +" + 6 * level + " Attack, +" + 2*level + " Defense";
+        return name + " reached level " + level + ": +" + (level) * (10) + " Health, +" + 6 * level + " Attack, +" + 2 * level + " Defense";
     }
 
     public boolean accept(Visitor v) { //check hunter action based on tile in front of him

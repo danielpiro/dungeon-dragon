@@ -9,6 +9,7 @@ public class Level {
     private Tile[][] tile;
     private List<Units> enemies;
     private Position playerPos;
+
     //default ctor
     public Level() {
         this.enemies = new ArrayList<>();
@@ -56,13 +57,13 @@ public class Level {
                         tile[i][j] = new Monster("White Walker", 2000, 150, 50, l.get(i).charAt(j), j, i, 1000, 6);
                         break;
                     case 'M':
-                        tile[i][j] = new Boss("The Mountain", 1000, 60, 25, l.get(i).charAt(j), j, i, 500, 6,4);
+                        tile[i][j] = new Boss("The Mountain", 1000, 60, 25, l.get(i).charAt(j), j, i, 500, 6, 4);
                         break;
                     case 'C':
-                        tile[i][j] = new Boss("Queen Cersei", 100, 10, 10, l.get(i).charAt(j), j, i, 1000, 1,5);
+                        tile[i][j] = new Boss("Queen Cersei", 100, 10, 10, l.get(i).charAt(j), j, i, 1000, 1, 5);
                         break;
                     case 'K':
-                        tile[i][j] = new Boss("Night's King", 5000, 300, 150, l.get(i).charAt(j), j, i, 5000, 8,3);
+                        tile[i][j] = new Boss("Night's King", 5000, 300, 150, l.get(i).charAt(j), j, i, 5000, 8, 3);
                         break;
                     case 'B':
                         tile[i][j] = new Trap("Bonus Trap", 1, 1, 1, l.get(i).charAt(j), j, i, 250, 1, 5);

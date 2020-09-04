@@ -4,7 +4,7 @@ package BusinessLayer;
 import java.util.List;
 import java.util.Random;
 
-public abstract class Player extends Units implements HeroicUnit{
+public abstract class Player extends Units implements HeroicUnit {
     protected int level;
     protected int experience;
 
@@ -60,7 +60,7 @@ public abstract class Player extends Units implements HeroicUnit{
         return v.visit(this);
     }
 
-    public String castAbility(List<Units> enemies, List<Units> damaged){
+    public String castAbility(List<Units> enemies, List<Units> damaged) {
         return null;
     }
 

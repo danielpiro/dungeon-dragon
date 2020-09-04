@@ -8,6 +8,7 @@ public class Trap extends Enemies {
     private int ticksCount;
     private boolean visible;
     private final char realChar;
+
     //default ctor
     public Trap(String name, int pool, int attack, int defense, char tile, int x, int y, int experience, int visibilityTime, int invisibilityTime) {
         super(name, pool, attack, defense, tile, x, y, experience);

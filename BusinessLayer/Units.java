@@ -12,6 +12,7 @@ public abstract class Units extends Tile {
     public boolean isDead() {
         return isDead;
     }
+
     //default ctor
     public Units(String name, int pool, int attack, int defense, char tile, int x, int y) {
         super(tile, x, y);
